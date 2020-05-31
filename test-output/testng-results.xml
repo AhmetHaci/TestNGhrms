@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-30T22:25:37 EDT" name="Smoke Suite" finished-at="2020-05-30T22:27:28 EDT" duration-ms="110879">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.emptyUsernameLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" name="emptyUsernameLogin" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" name="invalidPasswordLogin" class="com.hrms.testcases.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddMultipleEmp.addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" name="addMultipleEmp" class="com.hrms.testcases.AddMultipleEmp"/>
+        <method signature="LoginTest.emptyUsernameLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" name="emptyUsernameLogin" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" name="invalidPasswordLogin" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.validAdminLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" name="validAdminLogin" class="com.hrms.testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-05-30T22:25:37 EDT" name="Smoke Test" finished-at="2020-05-30T22:27:28 EDT" duration-ms="110879">
+      <class name="com.hrms.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:09 EDT" name="setUp" finished-at="2020-05-30T22:27:14 EDT" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyUsernameLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:14 EDT" name="emptyUsernameLogin" finished-at="2020-05-30T22:27:14 EDT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:14 EDT" name="tearDown" finished-at="2020-05-30T22:27:14 EDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:14 EDT" name="setUp" finished-at="2020-05-30T22:27:19 EDT" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:19 EDT" name="invalidPasswordLogin" finished-at="2020-05-30T22:27:20 EDT" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:20 EDT" name="tearDown" finished-at="2020-05-30T22:27:20 EDT" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:20 EDT" name="setUp" finished-at="2020-05-30T22:27:25 EDT" duration-ms="4092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validAdminLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:25 EDT" name="validAdminLogin" finished-at="2020-05-30T22:27:27 EDT" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@5c909414]" started-at="2020-05-30T22:27:27 EDT" name="tearDown" finished-at="2020-05-30T22:27:28 EDT" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginTest -->
+      <class name="com.hrms.testcases.AddMultipleEmp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:25:37 EDT" name="setUp" finished-at="2020-05-30T22:25:42 EDT" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:25:42 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:25:56 EDT" duration-ms="14207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mehmet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cakmak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehmetcak741]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8C!C*aZp^VcUaE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee1.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:25:56 EDT" name="tearDown" finished-at="2020-05-30T22:25:57 EDT" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:25:57 EDT" name="setUp" finished-at="2020-05-30T22:26:01 EDT" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:01 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:26:11 EDT" duration-ms="9622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Said]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ikbal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IkbalSaid10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4SYN3F#@RnQnvy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee2.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:11 EDT" name="tearDown" finished-at="2020-05-30T22:26:11 EDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:11 EDT" name="setUp" finished-at="2020-05-30T22:26:15 EDT" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:15 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:26:26 EDT" duration-ms="10568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Farzan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Makhir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Farzan568]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$72%dNHPsJ6VEH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee3.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:26 EDT" name="tearDown" finished-at="2020-05-30T22:26:27 EDT" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:27 EDT" name="setUp" finished-at="2020-05-30T22:26:31 EDT" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:31 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:26:40 EDT" duration-ms="8878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Huseyin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Huseyin456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aQby@8azWbyR@P]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee4.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:40 EDT" name="tearDown" finished-at="2020-05-30T22:26:41 EDT" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:41 EDT" name="setUp" finished-at="2020-05-30T22:26:45 EDT" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:45 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:26:53 EDT" duration-ms="8214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Izzet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Salih]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IzzetSalih10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FVq#4yQX39W498]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee5.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:53 EDT" name="tearDown" finished-at="2020-05-30T22:26:55 EDT" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:55 EDT" name="setUp" finished-at="2020-05-30T22:26:59 EDT" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:26:59 EDT" name="addMultipleEmp" data-provider="getData" finished-at="2020-05-30T22:27:09 EDT" duration-ms="9702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akif]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AkifMurat50]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2LbFX1wv$@#jAc]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[screenshot/HRMS/Employee6.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddMultipleEmp@433d61fb]" started-at="2020-05-30T22:27:09 EDT" name="tearDown" finished-at="2020-05-30T22:27:09 EDT" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.AddMultipleEmp -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
